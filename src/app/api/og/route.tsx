@@ -16,13 +16,13 @@ export async function GET() {
                     alignItems: "center",
                     justifyContent: "center",
                     backgroundColor: "#000",
-                    fontSize: 32,
+                    fontSize: 100,
                     fontWeight: 600,
                 }}
             >
                 <div style={{ display: "flex" }}>
-                    <span style={{ color: "#fff", marginRight: 5 }}>TV</span>
-                    <span style={{ color: "#eda1c5" }}>Thing</span>
+                    <span style={{ color: "#fff" }}>TV</span>
+                    <span style={{ color: "#eda1c5" }}>Finder</span>
                 </div>
             </div>
         ),

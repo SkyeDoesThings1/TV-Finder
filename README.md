@@ -1,6 +1,6 @@
-# TV Thing
+# TV Finder
 
-TV Thing is a service to show TV shows and series ratings and where users can find them!
+TV Finder is a service to show TV shows and series ratings and where users can find them!
 
 ## Todo List:
 
@@ -14,4 +14,4 @@ TV Thing is a service to show TV shows and series ratings and where users can fi
 
 ## Licensing
 
-TV Thing is licensed under the
+TV Finder is licensed under AGPL v3

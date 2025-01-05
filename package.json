@@ -1,5 +1,5 @@
 {
-    "name": "tv-thing",
+    "name": "tv-finder",
     "description": "A service to show TV shows and series ratings and where users can find them!",
     "version": "0.1.0",
     "private": true,
@@ -19,17 +19,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SkyeDoesThings1/TV-Thing.git"
+        "url": "git+https://github.com/SkyeDoesThings1/TV-Finder.git"
     },
     "author": "https://github.com/SkyeDoesThings1/",
     "license": "AGPL-3.0-only",
     "bugs": {
-        "url": "https://github.com/SkyeDoesThings1/TV-Thing/issues"
+        "url": "https://github.com/SkyeDoesThings1/TV-Finder/issues"
     },
     "homepage": "https://tv.skyler.lol/",
     "devDependencies": {
         "@types/eslint": "^8.56.10",
-        "@types/node": "^20.14.10",
+        "@types/node": "^20.17.11",
         "@types/react": "^18.3.3",
         "@types/react-dom": "^18.3.0",
         "@typescript-eslint/eslint-plugin": "^8.1.0",
@@ -45,7 +45,6 @@
     "dependencies": {
         "@t3-oss/env-nextjs": "^0.10.1",
         "@vercel/og": "^0.6.4",
-        "geist": "^1.3.0",
         "next": "^15.0.1",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
