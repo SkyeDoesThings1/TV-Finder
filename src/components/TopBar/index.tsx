@@ -1,5 +1,6 @@
 import { Logo, MovieIcon, TVIcon } from "@/components/svg";
 
+// the
 export const TopBar = () => {
     return (
         <div id="navbar" className="bg-black px-4 py-2 text-white shadow-md">
