@@ -1,10 +1,9 @@
 import { ImageResponse } from "@vercel/og";
+import { type ServerRuntime } from "next";
 
-export const config = {
-    runtime: "edge",
-};
+export const runtime: ServerRuntime = "edge";
 
-export async function GET() {
+export const GET = async () => {
     return new ImageResponse(
         (
             <div
@@ -21,7 +20,7 @@ export async function GET() {
                 }}
             >
                 <div style={{ display: "flex" }}>
-                    <span style={{ color: "#fff" }}>TV</span>
+                    <span style={{ color: "#fff", marginRight: 4 }}>TV</span>
                     <span style={{ color: "#eda1c5" }}>Finder</span>
                 </div>
             </div>
@@ -31,4 +30,4 @@ export async function GET() {
             height: 630,
         },
     );
-}
+};

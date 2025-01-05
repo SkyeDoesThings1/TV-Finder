@@ -2,6 +2,7 @@ import { suse } from "@/ui/fonts";
 import { TopBar } from "@/components/TopBar";
 import { type Viewport, type Metadata } from "next";
 import "@/styles/globals.css";
+import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
     title: "TV Finder",
@@ -29,17 +30,21 @@ export const viewport: Viewport = {
     themeColor: "#eda1c5",
 };
 
-export default function RootLayout({
-    children,
-}: Readonly<{ children: React.ReactNode }>) {
+const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
     return (
-        <html lang="en">
-            <body className={`${suse.variable} font-sans`}>
-                <div id="app">
-                    <TopBar />
-                    {children}
-                </div>
+        <html lang="en" suppressHydrationWarning>
+            <body
+                className={`${suse.variable} bg-white font-sans text-black antialiased selection:bg-[#eda1c4] selection:text-black dark:bg-black dark:text-white dark:selection:text-white`}
+            >
+                <ThemeProvider attribute="class">
+                    <div id="app">
+                        <TopBar />
+                        {children}
+                    </div>
+                </ThemeProvider>
             </body>
         </html>
     );
-}
+};
+
+export default RootLayout;
