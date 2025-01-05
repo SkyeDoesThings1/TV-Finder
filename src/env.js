@@ -8,6 +8,7 @@ export const env = createEnv({
      */
     server: {
         NODE_ENV: z.enum(["development", "test", "production"]),
+        TMDB_ACCESS_TOKEN: z.string(),
     },
 
     /**
@@ -25,6 +26,7 @@ export const env = createEnv({
      */
     runtimeEnv: {
         NODE_ENV: process.env.NODE_ENV,
+        TMDB_ACCESS_TOKEN: process.env.TMDB_ACCESS_TOKEN,
         // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
     },
     /**

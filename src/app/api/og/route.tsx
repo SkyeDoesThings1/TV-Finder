@@ -20,7 +20,7 @@ export const GET = async () => {
                 }}
             >
                 <div style={{ display: "flex" }}>
-                    <span style={{ color: "#fff", marginRight: 4 }}>TV</span>
+                    <span style={{ color: "#fff", marginRight: 5 }}>TV</span>
                     <span style={{ color: "#eda1c5" }}>Finder</span>
                 </div>
             </div>
