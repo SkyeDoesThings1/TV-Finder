@@ -4,7 +4,7 @@ TV Thing is a service to show TV shows and series ratings and where users can fi
 
 ## Todo List:
 
-- [ ] Deploy to Vercel
+- [x] Deploy to Vercel
 - [ ] Find an API for the data
 - [ ] UI/UX (React, Tailwind, etc.)
 - [ ] Analytics (PostHog)
